@@ -5,13 +5,13 @@ The StudySmarter Slides Exporter provides the possibility to export all created 
 
 ## How to use StudySmarter Slides Exporter
 
-Using the StudySmarter Slides Exporter is easy. To use it, all you need to do is import the `injection.js` file via your browser's JavaScript console. A download window will be shown with the option to save the file.
+Using the StudySmarter Slides Exporter is easy. To use it, all you need to do is import the `injection.js` file from your browser's JavaScript console as shown below. A window will appear showing the available subjects.
 
 ```javascript
 $.getScript('https://piuswalter.github.io/StudySmarter-Slides-Exporter/injection.js');
 ```
 
-Please note: Before inserting the code, select the corresponding tray, choose `Karteikarten` in the upper tabs and load all index cards by scrolling to the end.
+Please note the information in the bottom bar at `Status`.
 
 ## Error or bug found
 
