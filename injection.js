@@ -104,7 +104,7 @@ function loadSlides() {
 		$('.all-flashcards-wrapper.flashcard-tab-content.ng-star-inserted').scrollTop($('.all-flashcards-wrapper.flashcard-tab-content.ng-star-inserted')[0].scrollHeight);
 		setTimeout(loadSlides, 1000);
 	} else {
-		slidesContent = saveSlides();
+		slidesContent = saveSlides().replace(/&amp;/gi, '&');
 		setStatus('Loading completed. Press download button now.', 'green')
 	}
 }
