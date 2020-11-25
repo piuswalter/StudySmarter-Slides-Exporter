@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StudyOffline</title>
+    <style>
+        .flashcard {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flashcard">
+        <p id="question"></p>
+        <button onclick="switchCard(-1)"><</button>
+        <button onclick="revealAnswer()">Antwort anzeigen</button>
+        <button onclick="switchCard(1)">></button>
+        <button onclick="switchCard(0)">~</button>
+        <p id="answer"></p>
+    </div>
+    <script src="viewer.js"></script>
+</body>
+
+</html>
