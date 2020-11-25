@@ -121,7 +121,7 @@ function saveSlides() {
 }
 
 function download() {
-	filename = 'studysmarter-slides';
+	filename = 'studysmarter';
 
 	var element = document.createElement('a');
 	element.setAttribute('href', 'data:text/json;charset=utf-8,' + encodeURIComponent(slidesContent));

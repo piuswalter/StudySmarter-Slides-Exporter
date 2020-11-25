@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html>
+	
+	<head>
+		<title>StudyOffline</title>
+		
+		<link rel="stylesheet" href="_content_/libs/bootstrap-4.5.3-dist/css/bootstrap.min.css" />
+		
+		<style>
+			.flashcard {
+				margin-top: 5vh;
+				text-align: center;
+			}
+			
+			#question {
+				margin-top: 50px;
+			}
+		</style>
+	</head>
 
-<head>
-    <title>StudyOffline</title>
-    <style>
-        .flashcard {
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="flashcard">
-        <p id="question"></p>
-        <button onclick="switchCard(-1)"><</button>
-        <button onclick="revealAnswer()">Antwort anzeigen</button>
-        <button onclick="switchCard(1)">></button>
-        <button onclick="switchCard(0)">~</button>
-        <p id="answer"></p>
-    </div>
-    <script src="viewer.js"></script>
-</body>
-
+	<body>
+		<div class="container flashcard">
+			<div class="jumbotron">
+				<button type="button" class="btn btn-primary" onclick="switchCard(-1)"><</button>
+				<button type="button" class="btn btn-primary" onclick="revealAnswer()">Antwort anzeigen</button>
+				<button type="button" class="btn btn-primary" onclick="switchCard(1)">></button>
+				<button type="button" class="btn btn-primary" onclick="switchCard(0)">~</button>
+				
+				<p id="question" class="lead font-weight-bold">No input file available!</p>
+				<hr class="my-4">
+				<p id="answer"></p>
+			</div>
+		</div>
+		
+		<script src="_content_/js/viewer.js"></script>
+	</body>
+	
 </html>
