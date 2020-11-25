@@ -10,7 +10,7 @@ do
         dl=$(echo $link | sed -e 's/src=\\"//g' -e 's/\\">//g')
         pure=${dl%%\?*} # strip url parameters
         img_url="${img_path}/${pure##*\/}"
-        # wget "$dl" -O "$img_url"
+        wget "$dl" -O "$img_url"
         sed -i "s,${dl},${img_url},g" $file
     done
 done
