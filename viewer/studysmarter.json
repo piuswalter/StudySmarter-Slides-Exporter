@@ -1,0 +1,212 @@
+{
+  "Angewandte Mathematik": [
+    {
+      "question": "<p>Definition: Degenerierte Quader</p>",
+      "answer": "<p>Mittelwertsatz einer Veränderlichen</p>"
+    },
+    {
+      "question": "<p>Eigenschaften des Differentials</p>",
+      "answer": "<p>Lokale Linearisierung</p>"
+    },
+    {
+      "question": "<p>Definition: Integrierbare Funktionen</p>",
+      "answer": "<p>Unterscheidung Extrema</p>"
+    },
+    {
+      "question": "<p>Rechenregeln für Hüllfunktionen</p>",
+      "answer": "<p>Konvergenz einer Folge</p>"
+    },
+    {
+      "question": "<p>Definition: Stetigkeit</p>",
+      "answer": "<p>Symmetrische Matrizen</p>"
+    },
+    {
+      "question": "<p>Differenzierbarkeit von Produktfunktionen</p>",
+      "answer": "<p>Definition: Gradient</p>"
+    },
+    {
+      "question": "<p>Satz: Sigma-Subadditivität</p>",
+      "answer": "<p>Gradient einer mehrdimensionalen Funktion</p>"
+    },
+    {
+      "question": "<p>Taylorapproximation</p>",
+      "answer": "<p>Wann ist ein Weg differenzierbar?</p>"
+    },
+    {
+      "question": "<p>Definition: Hüllquader</p>",
+      "answer": "<p>Definition: Ck-Funktionen</p>"
+    },
+    {
+      "question": "<p>Beweis: Gradient</p>",
+      "answer": "<p>Cauchy-Schwarzsche Ungleichung</p>"
+    }
+  ],
+  "Betriebssysteme": [
+    {
+      "question": "<p>Beschreibe den Least-Recently-Used-Seitenersetzungsalgorithmus und seine verschiedenen Implementierungsarten.</p>",
+      "answer": "<p>Unterscheide das Verhungern und das Verklemmen (Deadlock) bei Prozessen.</p>"
+    },
+    {
+      "question": "<p>Beschreibe die Begriffe Lokalitätseigenschaft, Working Set, Prepaging und Seitenflattern.</p>",
+      "answer": "<p fr-original-style=\"\" style=\"font-family: Raleway, sans-serif; margin: 0px; padding: 0px; box-sizing: border-box;\">Welche Zugriffsarten auf Dateien gibt es?</p>"
+    },
+    {
+      "question": "<p>CPU-Effizienz im Round-Robin-Verfahren.</p><p>Gegeben:&nbsp;</p><p>Q = Quantum</p><p>T = Durchschnittliche Prozesslaufzeit vor Blockierung</p><p>S = Zeit für Wechsel zwischen zwei Prozessen&nbsp;</p><p><strong>Bestimme die CPU-Effizienz für Q ungefähr 0<br></strong></p>",
+      "answer": "<p>Wann können Algorithmen zur Deadlock-Erkennung eingesetzt werden?</p>"
+    },
+    {
+      "question": "<p fr-original-style=\"\" style=\"font-family: Raleway, sans-serif; margin: 0px; padding: 0px; box-sizing: border-box;\">Wie funktioniert das LFS?</p>",
+      "answer": "<p>Nenne die Eigenschaften der Befehlszähler in einem Prozess.</p>"
+    },
+    {
+      "question": "<p>Welche Daten werden benötigt um einen Prozess zu beschreiben?</p>",
+      "answer": "<p>Unterscheide Programm und Prozess.</p>"
+    },
+    {
+      "question": "<p>Was sind die Scheduling Kriterien aus Benutzersicht?</p>",
+      "answer": "<p>Wie kann ein Adressraum mithilfe von Basis- und Limit-Registern realisiert werden? (dynamische Relokation)</p>"
+    },
+    {
+      "question": "<p>Wie kann das Erzeuger-Verbraucher-Problem mithilfe von Nachrichtenaustausch realisiert werden?</p>",
+      "answer": "<p>Wie wird das Konzept der <strong>Autorisierung </strong>umgesetzt?<br><br></p>"
+    },
+    {
+      "question": "<p fr-original-style=\"\" style=\"font-family: Raleway, sans-serif; margin: 0px; padding: 0px; box-sizing: border-box;\">Was ist ein wesentliches Merkmal von Dateien?</p>",
+      "answer": "<p>Beschreibe die nicht funktionalen Anforderungen an ein Betriebssystem und leite daraus Anforderungen an die Architektur des Betriebssystems ab.</p>"
+    },
+    {
+      "question": "<p>Was sind die wesentlichen Konzepte eines Betriebssystems?</p>",
+      "answer": "<p>Unterscheide das Thread-Scheduling von Threads im Benutzer- oder Kernmodus (Vor- & Nachteile).</p>"
+    },
+    {
+      "question": "<p fr-original-style=\"\" style=\"font-family: Raleway, sans-serif; margin: 0px; padding: 0px; box-sizing: border-box;\">Was für unterschiedliche Pfadnamen gibt es? (Konzept Datei)</p>",
+      "answer": "<p><img class=\"fr-fic fr-dii\" localid=\"0\" src=\"img/ce173b16-06dd-4be9-befa-3a079f39c813.png\"></p><p>Welche Probleme gibt es und wie können sie behoben werden?</p>"
+    }
+  ],
+  "Formale Sprachen": [
+    {
+      "question": "<p>RegEx Gruppierung in Python</p>",
+      "answer": "<p>Wie ist die Menge R (Reachable) eines DFA F definiert? Wie kann damit geprüft werden ob L(F) = { }?</p>"
+    },
+    {
+      "question": "<p>Beschreibe den Beweis, dass es für jede FSM <em>F</em> eine vollständige FSM <em>F^ &nbsp;</em>gibt welche die selbe Sprache akzeptiert.</p>",
+      "answer": "<p>Wie ist eine reguläre Sprache definiert?</p>"
+    },
+    {
+      "question": "<p>Wie ist der Abschluss einer Menge M von markierten Regeln definiert?</p>",
+      "answer": "<p>Wie ist eine <strong>Formale Sprache</strong> definiert?</p>"
+    },
+    {
+      "question": "<p>Wie ist die Menge aller markierten Regeln einer Grammatik definiert? (Formelzeichen Groß-Gamma, gespiegeltes L)</p>",
+      "answer": "<p>Wie ist die akzeptierte Sprache eines NFA definiert?</p>"
+    },
+    {
+      "question": "<p>Python Code: nfa2dfa(nfa)</p>",
+      "answer": "<p>Wie ist eine markierte Regel einer Grammatik G definiert?</p>"
+    },
+    {
+      "question": "<p>Wie funktioniert der Beweis über die Schnittmenge zweier regulärer Sprachen?</p><div><img class=\"fr-fic fr-dii\" localid=\"9\" src=\"img/grafik_98on4LV.png\"></div>",
+      "answer": "<p>Wie ist eine kontextfreie Grammatik definiert?</p>"
+    },
+    {
+      "question": "<p>Welche <strong>Regeln zur</strong> <strong>algebraischen Vereinfachung</strong> von regulären Ausdrücken gibt es?</p>",
+      "answer": "<p>Wie ist die FSM<img class=\"fr-fic fr-dii\" localid=\"0\" src=\"img/8dfaa45f-535c-4857-b156-eb5879184b12.png\"> definiert?</p>"
+    },
+    {
+      "question": "<p>Wie ist die deterministische FSM <em>det(F)</em> definiert?</p>",
+      "answer": "<p>Wie ist die Vervollständigungs-Operation bei einem Earley-Objekt definiert?<br><br></p>"
+    },
+    {
+      "question": "<p>Entferne die Linksrekursion aus dem folgenden Beispiel.</p><img localid=\"0\" src=\"img/3d7703df-070a-4f51-8a12-8c06d173f020.png\">",
+      "answer": "<p>Beispiel: Nicht-deterministischer endlicher Automat.</p>"
+    },
+    {
+      "question": "<p><img class=\"fr-fic fr-dii\" localid=\"0\" src=\"img/b2f5be46-e91b-4b8e-a93c-7f76775f1f2f.png\"></p><p>Wie funktioniert hier der Beweis?</p>",
+      "answer": "<p>Wie ist die Funktion goto(M,c) definiert?</p>"
+    }
+  ],
+  "Rechnerarchitekturen": [
+    {
+      "question": "<p>Was sind die fundamentalen Operationen für eine vollwertige ALU?</p>",
+      "answer": "<p>Was ist eine ALU?</p>"
+    },
+    {
+      "question": "<p>Wie ist ein Halbaddierer aufgebaut?</p>",
+      "answer": "<p>Was wird als <strong>Softerror</strong> bezeichnet und welche Möglichkeiten der Fehlerkorrektur gibt es?</p>"
+    },
+    {
+      "question": "<p>Nenne Beispiele für mechanische Rechner.</p>",
+      "answer": "<p>Welche moderneren Speicherentwicklungen gibt es aktuell?</p>"
+    },
+    {
+      "question": "<p>Wie ist die Speicherhierarchie bzw. welche Aufteilung nach Größe und Geschwindigkeit gibt es (Speicherarten)?</p>",
+      "answer": "<p>Was sit die Sättigungsarithmetik (MMX)?</p>"
+    },
+    {
+      "question": "<p>Wie funktioniert das Memory Mapping aus Hardwaresicht?</p>",
+      "answer": "<p>Facts: SATA</p>"
+    },
+    {
+      "question": "<p>Facts RS422<br><br></p>",
+      "answer": "<p>Was ist eine FPU?</p>"
+    },
+    {
+      "question": "<p>Beschreibe die Power und Reset Funktionalitäten.</p>",
+      "answer": "<p>Welche Befehlsarten kann ein OpCode enthalten?</p>"
+    },
+    {
+      "question": "<p>Was sind Eigenschaften von heutigen Magnetbändern?</p>",
+      "answer": "<p>Beschreibe die Unterschiede der CISC/RISC-Architektur.</p>"
+    },
+    {
+      "question": "<p>Was sind die Eigenschaften optischer Medien? (CD, DVD, Blu-Ray)</p>",
+      "answer": "<p>Wie läuft die Addition bei einem Paralleladdierwerk ab? Welche Optimierungen gibt es?</p>"
+    },
+    {
+      "question": "<p>Facts I2C</p>",
+      "answer": "<p>Welche RAID-Arten (!=Level) gibt es?</p>"
+    }
+  ],
+  "Systemnahe Programmierung": [
+    {
+      "question": "<p>Was ist der Unterschied zwischen dem Normal Modus eines Timers und dem CTC-Modus?</p>",
+      "answer": "<p>Wie sieht ein Interrupt-Baustein aus?</p>"
+    },
+    {
+      "question": "<p>Beschreibe einen Stackrahmen.</p>",
+      "answer": "<p>Beschreibe Eigenschaften von EEPROM <u>bei Mikrocontrollern</u>.</p>"
+    },
+    {
+      "question": "<p>Wie unterscheiden sich inline Methoden von Makros? Was haben sie für Auswirkungen?</p>",
+      "answer": "<p>Wie können analoge Ausgänge simuliert werden?</p>"
+    },
+    {
+      "question": "<p>Wie werden Hardwarebefehle ausgeführt oder RAM und Flash beschrieben?</p>",
+      "answer": "<p>Was ist der Unterschied zwischen Fast-PWM und phasenkorrektem PWM?</p>"
+    },
+    {
+      "question": "<p>Welche CPU-Architektur ist bei dem Mikrocontroller verbaut?</p>",
+      "answer": "<p>Welche PINs können bei der Arbeit mit einem Timerinterrupt verwendet werde? Welche bei der PWM?</p>"
+    },
+    {
+      "question": "<p>Was ist ein Interrupt? Was ist das Gegenteil davon?</p>",
+      "answer": "<p>Wie ist die Sichtbarkeit von Variablen und Funktionen über C-Files hinweg? Welche Lösungen und Befehle gibt es diesbezüglich?</p>"
+    },
+    {
+      "question": "<p>Wofür ist ein Pull-Up Widerstand?</p>",
+      "answer": "<p>Was gibt es für Speicherarten im Mikrocontroller?</p>"
+    },
+    {
+      "question": "<p>Wie wird bei der seriellen Übertragung eine Synchronisation erzielt?</p>",
+      "answer": "<p>Was machen die Befehle sei() und cli()?</p>"
+    },
+    {
+      "question": "<p>Beschreibe den Heap mit seinen Inhalten.</p>",
+      "answer": "<p>Was ist der Unterschied zwischen Fast-PWM und phasenkorrektem PWM?</p>"
+    },
+    {
+      "question": "<p>Welche Möglichkeiten hat der Mikrocontroller bei der Verarbeitung (Eingang) eines analogen Signals?</p>",
+      "answer": "<p>Wie groß ist ein int in C?</p>"
+    }
+  ]
+}

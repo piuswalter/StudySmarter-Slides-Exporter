@@ -91,7 +91,9 @@ $('#pw-courses').after(coursesInjectionCode);
 var controlPanelHeight = $('#pw-control-panel').height();
 controlPanel.style.height = (controlPanelHeight + 15) + 'px';
 
+var filename = 'studysmarter.json';
 function gotoCourse(course) {
+	filename = courses[course] + '.json';
 	setStatus('Loading ... Please wait!', 'red')
 	$.when( $('.left .title').eq(course).click() )
 		.then( $('.title-wrapper').eq(courses.length + 2).click() )
@@ -121,8 +123,6 @@ function saveSlides() {
 }
 
 function download() {
-	filename = 'studysmarter';
-
 	var element = document.createElement('a');
 	element.setAttribute('href', 'data:text/json;charset=utf-8,' + encodeURIComponent(slidesContent));
 	element.setAttribute('download', filename);
