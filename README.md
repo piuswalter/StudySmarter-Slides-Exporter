@@ -15,7 +15,11 @@ Please note the information in the bottom bar at `Status`.
 
 ## Display the exported json file
 
-Inside the folder `viewer`, you will find a simple webpage for displaying the exported json file. Just move your `studysmarter.json` into the viewer directory and get started.
+Move all of your exported json files into the `input` folder and simply run the `generator.sh` bash script (`jq` is required as a dependency).
+
+This will generate a `studysmarter.json` as well as an `img` folder inside of the `viewer` directory.
+
+Now simply serve the viewer directory on a local webserver and get started!
 
 ## Error or bug found
 
