@@ -93,7 +93,7 @@ controlPanel.style.height = (controlPanelHeight + 15) + 'px';
 
 var filename = 'studysmarter.json';
 function gotoCourse(course) {
-	filename = courses[course] + '.json';
+	filename = courses[course].trim() + '.json';
 	setStatus('Loading ... Please wait!', 'red')
 	$.when( $('.left .title').eq(course).click() )
 		.then( $('.title-wrapper').eq(courses.length + 2).click() )
