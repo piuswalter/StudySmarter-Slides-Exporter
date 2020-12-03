@@ -15,16 +15,14 @@ combine_json() {
 }
 
 extract_images() {
-    for img_link in $(grep -o 'src=\\"[^ >]\+\\"' $1)
+    for dl_link in $(grep -o 'src=\\"[^ >]\+\\"' $1 | sed -e 's/src=\\"//g' -e 's/\\"//g')
     do
-        # extract weblink from html
-        dl_link=$(echo $img_link | sed -e 's/src=\\"//g' -e 's/\\"//g')
         # strip url parameters
         stripped=${dl_link%%\?*}
         img_file="img/${stripped##*\/}"
 
         # download image and set name
-        if [ ! -f viewer/$img_path ] || [ "$force_dl" == "true" ]; then
+        if [ ! -f viewer/$img_file ] || [ "$force_dl" == "true" ]; then
             wget "$dl_link" -O "viewer/$img_file"
         fi
         # replace original with new link
