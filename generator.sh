@@ -15,7 +15,7 @@ combine_json() {
 }
 
 extract_images() {
-    for dl_link in $(grep -o 'src=\\"[^ >]\+\\"' $1 | sed -e 's/src=\\"//g' -e 's/\\"//g')
+    for dl_link in $(grep -o 'http\(s\)\?://[^\\]\+' $1)
     do
         # strip url parameters
         stripped=${dl_link%%\?*}
