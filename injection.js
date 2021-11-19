@@ -78,8 +78,8 @@ wrapper.addEventListener('mousemove', function (e) {
 
 
 var courses = [];
-for (let i = 0; i <  $('.left .title').length; i++) {
-   courses[i] = $('.left .title').eq(i).text();
+for (let i = 0; i <  $('.subject-title').length; i++) {
+   courses[i] = $('.subject-title').eq(i).text();
 }
 var cardJSON = '';
 var coursesInjectionCode = '';
@@ -95,7 +95,7 @@ var filename = 'studysmarter.json';
 function gotoCourse(course) {
 	filename = courses[course].trim() + '.json';
 	setStatus('Loading ... Please wait!', 'red')
-	$.when( $('.left .title').eq(course).click() )
+	$.when( $('.subject-title').eq(course).click() )
 		.then( $('.title-wrapper').eq(courses.length + 2).click() )
 		.then( setTimeout(loadSlides, 5000) );
 }
