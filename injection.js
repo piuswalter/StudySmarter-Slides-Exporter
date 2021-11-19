@@ -96,7 +96,7 @@ function gotoCourse(course) {
 	filename = courses[course].trim() + '.json';
 	setStatus('Loading ... Please wait!', 'red')
 	$.when( $('.subject-title').eq(course).click() )
-		.then( $('.title-wrapper').eq(courses.length + 2).click() )
+		.then( $('.title-wrapper').eq(2).click() )
 		.then( setTimeout(loadSlides, 5000) );
 }
 
